@@ -3,9 +3,9 @@ package com.app;
 public class Employee {
 	private int  empId;
 	
-	private String empName;
-	
-	private double empSal;
+    private String empCost;
+    
+    private String empLocation;
 
 	public int getEmpId() {
 		return empId;
@@ -15,28 +15,29 @@ public class Employee {
 		this.empId = empId;
 	}
 
-	public String getEmpName() {
-		return empName;
+	public String getEmpCost() {
+		return empCost;
 	}
 
-	public void setEmpName(String empName) {
-		this.empName = empName;
+	public void setEmpCost(String empCost) {
+		this.empCost = empCost;
 	}
 
-	public double getEmpSal() {
-		return empSal;
+	public String getEmpLocation() {
+		return empLocation;
 	}
 
-	public void setEmpSal(double empSal) {
-		this.empSal = empSal;
+	public void setEmpLocation(String empLocation) {
+		this.empLocation = empLocation;
 	}
 
 	@Override
 	public String toString() {
-		return "Employee [empId=" + empId + ", empName=" + empName + ", empSal=" + empSal + "]";
+		return "Employee [empId=" + empId + ", empCost=" + empCost + ", empLocation=" + empLocation + "]";
 	}
-	
-	
+    
+    
+    
 	
 
 }
